@@ -50,10 +50,10 @@
                         </td>
                         <td class="py-3 px-6 text-center">
                             <div class="flex item-center justify-center">
-                                <!-- Edit button (if you add edit functionality later) -->
-                                <!-- <a href="<?= base_url('admin/suratkeluar/edit/' . $surat['id']) ?>" class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110">
+                                <a href="<?= base_url('admin/suratkeluar/edit/' . $surat['id']) ?>"
+                                    class="w-4 mr-2 transform hover:text-purple-500 hover:scale-110 text-blue-600">
                                     <i class="fas fa-edit"></i>
-                                </a> -->
+                                </a>
                                 <a href="<?= base_url('admin/suratkeluar/delete/' . $surat['id']) ?>"
                                     onclick="return confirm('Yakin hapus data ini?')"
                                     class="w-4 mr-2 transform hover:text-red-500 hover:scale-110 text-red-600">
